@@ -85,7 +85,7 @@ clue: "25 50 44 46"
 - Save as dengan format `pdf`
 
 ##### Screenshot hasil:
-- Paket telah ditemukan
+- Paket telah ditemukan <br>
 ![image](https://user-images.githubusercontent.com/26424136/96077865-16518500-0edb-11eb-957b-187f0c643f4f.png)
 
 ## Capture Filter
