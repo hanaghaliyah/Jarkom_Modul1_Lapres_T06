@@ -1,6 +1,5 @@
 # Jarkom_Modul1_Lapres_T06
-
-## Kelompok T06
+Kelompok T06
 1. Hana Ghaliyah Azhar  (05311840000032)
 2. Azmi                 (05311840000047)
 
@@ -25,14 +24,14 @@ Ikuti perintah di aku.pengen.pw! Username dan password bisa didapatkan dari file
 
 ### Soal 6
 Seseorang menyimpan file zip melalui FTP dengan nama "Answer.zip". Simpan dan Buka file "Open This.pdf" di Answer.zip. Untuk mendapatkan password zipnya, temukan dalam file zipkey.txt (passwordnya adalah isi dari file txt tersebut). <br>
-Wireshark filter expression: 'ftp-data' <br>
+Wireshark filter expression: `ftp-data` <br>
 Step Mencari file Answer.zip
 - ctrl+f (display filter dichange ke regular expression) answer.zip
 - find
 - follow TCP Stream
 - show and save data as 'RAW' 
 - Save as dan beri nama "Answer.zip"
-Step Mencari file zipkey.txt
+<br>Step Mencari file zipkey.txt
 - ctrl+f mecari zipkey
 - lalu menemukan zipkey.txt 
 - follow tcp stream
