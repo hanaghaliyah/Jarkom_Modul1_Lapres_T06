@@ -40,7 +40,14 @@ screenshot hasil:
 ![image](https://user-images.githubusercontent.com/26424136/96061525-a8e32b80-0ebd-11eb-94eb-2eee925aaf73.png)
 
 ### Soal 5
-Ikuti perintah di aku.pengen.pw! Username dan password bisa didapatkan dari file .pcapng!
+Ikuti perintah di aku.pengen.pw! Username dan password bisa didapatkan dari file .pcapng! 
+#### Pembahasan
+##### Wireshark filter expression: `http.host == aku.pengen.pw` <br>
+##### screenshot hasil:
+1. Pada Authorization dibagian Credentials terdapat username `kakakgamtenk` dan password `hartatahtabermuda` untuk login di <b>aku.pengen.pw</b> 
+![image](https://user-images.githubusercontent.com/26424136/96083326-2c654280-0ee7-11eb-90c9-1e38666a2d6c.png)
+2. Login dengan username dan password yang telah diperoleh. Tampilan web setelah kita berhasil login.
+![image](https://user-images.githubusercontent.com/26424136/96083497-73533800-0ee7-11eb-9167-3e23613c0bac.png)
 
 ### Soal 6
 Seseorang menyimpan file zip melalui FTP dengan nama "Answer.zip". Simpan dan Buka file "Open This.pdf" di Answer.zip. Untuk mendapatkan password zipnya, temukan dalam file zipkey.txt (passwordnya adalah isi dari file txt tersebut). <br>
