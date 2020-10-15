@@ -51,9 +51,13 @@ File "Open This.pdf"<br>
 Ada 500 file zip yang disimpan ke FTP Server dengan nama 1.zip, 2.zip, ..., 500.zip. Salah satunya berisi pdf yang berisi puisi. Simpan dan Buka file pdf tersebut. Your Super Mega Ultra Rare Hint = nama pdf-nya "Yes.pdf"
 #### Pembahasan
 ##### Wireshark filter expression: `ftp-data contains Yes.pdf`
-
 ##### Screenshot hasil: 
-![image](https://user-images.githubusercontent.com/26424136/96069184-df25a880-0ec7-11eb-9041-9393fd95955a.png)
+1. Setelah menemukan paketnya, klik Follow Tcp Stream
+![Screenshot (131)](https://user-images.githubusercontent.com/26424136/96079008-ec4d9200-0edd-11eb-900a-78a50c1efebe.png)
+2. Show and save data as `RAW`, lalu gunakan format `.zip` pada file tersebut
+![Screenshot (133)](https://user-images.githubusercontent.com/26424136/96079014-ee175580-0edd-11eb-9a38-5dddaf7edce4.png)
+3. Extract file tersebut dan buka file Yes.pdf yang ada didalamnya.
+![Screenshot (134)](https://user-images.githubusercontent.com/26424136/96079017-eeafec00-0edd-11eb-8a3d-a56fbec3f201.png)
 
 ### Soal 8
 Cari objek apa saja yang didownload (RETR) dari koneksi FTP dengan Microsoft FTP Service!
@@ -64,20 +68,35 @@ Cari objek apa saja yang didownload (RETR) dari koneksi FTP dengan Microsoft FTP
 
 ### Soal 9
 Cari username dan password ketika login FTP pada localhost!
+#### Pembahasan
+##### Wireshark filter expression: `ftp.request.command == USER || ftp.request.command == PASS`
+##### Screenshot hasil:
+![image](https://user-images.githubusercontent.com/26424136/96077426-fa011880-0ed9-11eb-97e2-0ccad712c34a.png)
 
 ### Soal 10
 Cari file .pdf di wireshark lalu download dan buka file tersebut!
 clue: "25 50 44 46" 
+#### Pembahasan
+##### Wireshark filter expression:
+- ctrl + f (display filter dichange ke Hex Value)
+- Find `25 50 44 46`
+- Setelah menemukan paketnya, Pilih Follow TCP Stream
+- Show and save data as `raw`
+- Save as dengan format `pdf`
+
+##### Screenshot hasil:
+- Paket telah ditemukan
+![image](https://user-images.githubusercontent.com/26424136/96077865-16518500-0edb-11eb-957b-187f0c643f4f.png)
 
 ## Capture Filter
 ### Soal 11
 Filter sehingga wireshark hanya mengambil paket yang mengandung port 21!
 #### Pembahasan
 ##### Wireshark filter expression: `port 21`
-- Menyalakan filezila
+- Menyalakan filezila (agar port 21 bisa terdeteksi)
 - Pilih adapter loopback pada wireshark
 ##### Screenshot hasil:
-
+![image](https://user-images.githubusercontent.com/26424136/96077231-70e9e180-0ed9-11eb-93e5-508b252036f3.png)
 
 ### Soal 12
 Filter sehingga wireshark hanya mengambil paket yang berasal dari port 80!
