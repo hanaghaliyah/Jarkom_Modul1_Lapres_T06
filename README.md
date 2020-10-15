@@ -25,6 +25,13 @@ Simpan gambar "Tim_Kunjungan_Kerja_BAKN_DPR_RI_ke_Sukabumi141436.jpg"!
 
 ### Soal 3
 Cari username dan password ketika login di "ppid.dpr.go.id"!
+#### Pembahasan
+##### Wireshark filter expression: `http.host == ppid.dpr.go.id && http.request.method == POST`
+##### Screenshot hasil:
+Pada `HTML Form URL Encode`, kita dapat menemukan username dan password.
+- Username: `10pemuda`
+- Password: `guncangdunia` <br>
+![image](https://user-images.githubusercontent.com/26424136/96081724-2752c400-0ee4-11eb-891b-aae006dc1fcd.png)
 
 ### Soal 4
 Temukan paket dari web-web yang menggunakan basic authentication method! <br>
