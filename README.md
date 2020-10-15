@@ -91,10 +91,12 @@ Cari objek apa saja yang didownload (RETR) dari koneksi FTP dengan Microsoft FTP
 #### Pembahasan
 ##### Wireshark filter expression: 
 - Filter untuk Mencari IP Microsoft yaitu `ftp contains Microsoft`
-- `ftp.request.command == "RETR" && ip.addr == 198.246.117.106` 
+- Filter untuk mencari objek yaitu `ftp.request.command == "RETR" && ip.addr == 198.246.117.106` 
 ##### Screenshot hasil:
-1. Mencari IP Microsoft
-
+1. Mencari IP Microsoft.
+![image](https://user-images.githubusercontent.com/26424136/96101272-7ce89a00-0eff-11eb-8e28-b29e714650d9.png)
+2. Objek telah ditemukan.
+![image](https://user-images.githubusercontent.com/26424136/96101410-9f7ab300-0eff-11eb-9b5f-72df82f24a1e.png)
 
 ### Soal 9
 Cari username dan password ketika login FTP pada localhost!
