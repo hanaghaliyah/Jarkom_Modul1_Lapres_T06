@@ -115,9 +115,12 @@ clue: "25 50 44 46"
 - Save as dengan format `pdf`
 
 ##### Screenshot hasil:
-- Paket telah ditemukan <br>
+1. Paket telah ditemukan <br>
 ![image](https://user-images.githubusercontent.com/26424136/96077865-16518500-0edb-11eb-957b-187f0c643f4f.png)
-![image](https://user-images.githubusercontent.com/26424136/96085858-9ed82180-0eeb-11eb-9590-76d5768be7ec.png)
+2. Pada Follow TCP Stream, Show and save data as `RAW`. Kemudian save as dengan format `.pdf`
+![image](https://user-images.githubusercontent.com/26424136/96087940-ddbba680-0eee-11eb-8ee1-e8b2ef3704d1.png)
+3. Buka file tersebut
+![image](https://user-images.githubusercontent.com/26424136/96088346-810cbb80-0eef-11eb-882b-9b3ec919054a.png)
 
 ## Capture Filter
 ### Soal 11
