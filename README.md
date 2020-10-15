@@ -15,8 +15,8 @@ Simpan gambar "Tim_Kunjungan_Kerja_BAKN_DPR_RI_ke_Sukabumi141436.jpg"!
 Cari username dan password ketika login di "ppid.dpr.go.id"!
 
 ### Soal 4
-Temukan paket dari web-web yang menggunakan basic authentication method!
-Wireshark filter expression: `http.authbasic`
+Temukan paket dari web-web yang menggunakan basic authentication method! <br>
+Wireshark filter expression: `http.authbasic` <br>
 screenshot hasil:
 ![image](https://user-images.githubusercontent.com/26424136/96061525-a8e32b80-0ebd-11eb-94eb-2eee925aaf73.png)
 
@@ -24,8 +24,8 @@ screenshot hasil:
 Ikuti perintah di aku.pengen.pw! Username dan password bisa didapatkan dari file .pcapng!
 
 ### Soal 6
-Seseorang menyimpan file zip melalui FTP dengan nama "Answer.zip". Simpan dan Buka file "Open This.pdf" di Answer.zip. Untuk mendapatkan password zipnya, temukan dalam file zipkey.txt (passwordnya adalah isi dari file txt tersebut).
-Wireshark filter expression: 'ftp-data'
+Seseorang menyimpan file zip melalui FTP dengan nama "Answer.zip". Simpan dan Buka file "Open This.pdf" di Answer.zip. Untuk mendapatkan password zipnya, temukan dalam file zipkey.txt (passwordnya adalah isi dari file txt tersebut). <br>
+Wireshark filter expression: 'ftp-data' <br>
 Step Mencari file Answer.zip
 - ctrl+f (display filter dichange ke regular expression) answer.zip
 - find
