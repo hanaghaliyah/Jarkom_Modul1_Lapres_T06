@@ -56,7 +56,7 @@ Ada 500 file zip yang disimpan ke FTP Server dengan nama 1.zip, 2.zip, ..., 500.
 ![Screenshot (131)](https://user-images.githubusercontent.com/26424136/96079008-ec4d9200-0edd-11eb-900a-78a50c1efebe.png)
 2. Show and save data as `RAW`, lalu gunakan format `.zip` pada file tersebut
 ![Screenshot (133)](https://user-images.githubusercontent.com/26424136/96079014-ee175580-0edd-11eb-9a38-5dddaf7edce4.png)
-3. Extract file tersebut dan buka file Yes.pdf yang ada didalamnya.
+3. Extract file tersebut dan buka file `Yes.pdf` yang ada didalamnya.
 ![Screenshot (134)](https://user-images.githubusercontent.com/26424136/96079017-eeafec00-0edd-11eb-8a3d-a56fbec3f201.png)
 
 ### Soal 8
