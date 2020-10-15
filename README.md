@@ -47,8 +47,65 @@ Password : `hey997400323051` <br>
 File "Open This.pdf"<br>
 ![image](https://user-images.githubusercontent.com/26424136/96062295-8520e500-0ebf-11eb-84ae-8e9dcb46712b.png)
 
+### Soal 7
+Ada 500 file zip yang disimpan ke FTP Server dengan nama 1.zip, 2.zip, ..., 500.zip. Salah satunya berisi pdf yang berisi puisi. Simpan dan Buka file pdf tersebut. Your Super Mega Ultra Rare Hint = nama pdf-nya "Yes.pdf"
+#### Pembahasan
+##### Wireshark filter expression: `ftp-data contains Yes.pdf`
+
+##### Screenshot hasil: 
+![image](https://user-images.githubusercontent.com/26424136/96069184-df25a880-0ec7-11eb-9041-9393fd95955a.png)
+
+### Soal 8
+Cari objek apa saja yang didownload (RETR) dari koneksi FTP dengan Microsoft FTP Service!
+#### Pembahasan
+##### Wireshark filter expression: `ftp.request.command == "RETR" && ip.addr == 198.246.117.106`
+
+##### Screenshot hasil:
+
+### Soal 9
+Cari username dan password ketika login FTP pada localhost!
+
+### Soal 10
+Cari file .pdf di wireshark lalu download dan buka file tersebut!
+clue: "25 50 44 46" 
+
+## Capture Filter
+### Soal 11
+Filter sehingga wireshark hanya mengambil paket yang mengandung port 21!
+#### Pembahasan
+##### Wireshark filter expression: `port 21`
+- Menyalakan filezila
+- Pilih adapter loopback pada wireshark
+##### Screenshot hasil:
 
 
+### Soal 12
+Filter sehingga wireshark hanya mengambil paket yang berasal dari port 80!
+#### Pembahasan
+##### Wireshark filter expression: `src port 80`
+##### Screenshot hasil:
+![image](https://user-images.githubusercontent.com/26424136/96070938-5a3c8e00-0ecb-11eb-92e6-a2f1bbb6d676.png)
 
+### Soal 13
+Filter sehingga wireshark hanya menampilkan paket yang menuju port 443!
+#### Pembahasan
+##### Wireshark filter expression: `dst port 443`
+##### Screenshot hasil:
+![image](https://user-images.githubusercontent.com/26424136/96071087-a091ed00-0ecb-11eb-8382-096a0339ce9a.png)
 
+### Soal 14
+Filter sehingga wireshark hanya mengambil paket yang berasal dari ip kalian!
+#### Pembahasan
+##### Wireshark filter expression: `src host 192.168.0.109`
+##### Screenshot hasil:
+Buka Cmd dan gunakan perintah `ipconfig`. IP laptop kita adalah `192.168.0.109` <br>
+![image](https://user-images.githubusercontent.com/26424136/96071253-e77fe280-0ecb-11eb-9675-c4f0005c45ec.png) <br>
+Paket yang berasal dari `192.168.0.109` <br>
+![image](https://user-images.githubusercontent.com/26424136/96071298-05e5de00-0ecc-11eb-81f0-6a6070e35ce4.png) <br>
 
+### Soal 15
+Filter sehingga wireshark hanya mengambil paket yang tujuannya ke monta.if.its.ac.id!
+#### Pembahasan
+##### Wireshark filter expression: `dst host monta.if.its.ac.id`
+##### Screenshot hasil:
+![image](https://user-images.githubusercontent.com/26424136/96071593-af2cd400-0ecc-11eb-95c3-65c25bbdcd7c.png)
