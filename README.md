@@ -46,7 +46,7 @@ Ikuti perintah di aku.pengen.pw! Username dan password bisa didapatkan dari file
 ##### screenshot hasil:
 1. Pada Authorization dibagian Credentials terdapat username `kakakgamtenk` dan password `hartatahtabermuda` untuk login di <b>aku.pengen.pw</b> 
 ![image](https://user-images.githubusercontent.com/26424136/96083326-2c654280-0ee7-11eb-90c9-1e38666a2d6c.png)
-2. Login dengan username dan password yang telah diperoleh. Tampilan web setelah kita berhasil login.
+2. Login dengan username dan password yang telah diperoleh. Berikut Tampilan web setelah kita berhasil login.
 ![image](https://user-images.githubusercontent.com/26424136/96083497-73533800-0ee7-11eb-9167-3e23613c0bac.png)
 
 ### Soal 6
@@ -89,9 +89,12 @@ Ada 500 file zip yang disimpan ke FTP Server dengan nama 1.zip, 2.zip, ..., 500.
 ### Soal 8
 Cari objek apa saja yang didownload (RETR) dari koneksi FTP dengan Microsoft FTP Service!
 #### Pembahasan
-##### Wireshark filter expression: `ftp.request.command == "RETR" && ip.addr == 198.246.117.106`
-
+##### Wireshark filter expression: 
+- Filter untuk Mencari IP Microsoft yaitu `ftp contains Microsoft`
+- `ftp.request.command == "RETR" && ip.addr == 198.246.117.106` 
 ##### Screenshot hasil:
+1. Mencari IP Microsoft
+
 
 ### Soal 9
 Cari username dan password ketika login FTP pada localhost!
