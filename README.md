@@ -6,9 +6,22 @@ Kelompok T06
 ## Display Filter
 ### Soal 1
 Sebutkan webserver yang digunakan pada "testing.mekanis.me"!
+#### Pembahasan
+##### Wireshark filter expression: `http.host == testing.mekanis.me`
+##### Screenshot hasil:
+Dapat dilihat webserver yang digunakan pada <b>testing.mekanis.me</b> adalah `Server: nginx/1.14.0 (Ubuntu)` <br>
+![image](https://user-images.githubusercontent.com/26424136/96079850-fe303480-0edf-11eb-8a48-51e3263945cd.png)
 
 ### Soal 2
 Simpan gambar "Tim_Kunjungan_Kerja_BAKN_DPR_RI_ke_Sukabumi141436.jpg"!
+#### Pembahasan
+##### Screenshot hasil:
+1. Pilih File -> Export Objects -> HTTP
+![Screenshot (135)](https://user-images.githubusercontent.com/26424136/96080225-cd043400-0ee0-11eb-9727-a438efef1b30.png)
+2. Lalu cari gambar "Tim_Kunjungan_Kerja_BAKN_DPR_RI_ke_Sukabumi141436.jpg" pada `Text Filter`
+![Screenshot (136)](https://user-images.githubusercontent.com/26424136/96080229-cf668e00-0ee0-11eb-9efd-ae1a65147df1.png)
+3. Buka Gambar
+![Screenshot (137)](https://user-images.githubusercontent.com/26424136/96080230-cfff2480-0ee0-11eb-87c6-4bb1d0d7f80c.png)
 
 ### Soal 3
 Cari username dan password ketika login di "ppid.dpr.go.id"!
