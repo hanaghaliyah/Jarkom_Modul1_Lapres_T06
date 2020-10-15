@@ -18,7 +18,7 @@ Simpan gambar "Tim_Kunjungan_Kerja_BAKN_DPR_RI_ke_Sukabumi141436.jpg"!
 ##### Screenshot hasil:
 1. Pilih File -> Export Objects -> HTTP
 ![Screenshot (135)](https://user-images.githubusercontent.com/26424136/96080225-cd043400-0ee0-11eb-9727-a438efef1b30.png)
-2. Lalu cari gambar "Tim_Kunjungan_Kerja_BAKN_DPR_RI_ke_Sukabumi141436.jpg" pada `Text Filter`
+2. Lalu cari gambar <b>Tim_Kunjungan_Kerja_BAKN_DPR_RI_ke_Sukabumi141436.jpg</b> pada `Text Filter`, Lalu <b>save as</b> dengan format `.jpg`
 ![Screenshot (136)](https://user-images.githubusercontent.com/26424136/96080229-cf668e00-0ee0-11eb-9efd-ae1a65147df1.png)
 3. Buka Gambar
 ![Screenshot (137)](https://user-images.githubusercontent.com/26424136/96080230-cfff2480-0ee0-11eb-87c6-4bb1d0d7f80c.png)
