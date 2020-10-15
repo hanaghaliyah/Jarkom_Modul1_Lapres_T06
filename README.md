@@ -33,12 +33,18 @@ Step Mencari file Answer.zip
 - show and save data as 'RAW' 
 - Save as dan beri nama "Answer.zip"
 Step Mencari file zipkey.txt
-- ctrl+f mecari .zip
+- ctrl+f mecari zipkey
 - lalu menemukan zipkey.txt 
 - follow tcp stream
-- save as raw
+- show and save data as `raw`
 
-Screenshot hasil:
+Screenshot hasil: <br>
+![image](https://user-images.githubusercontent.com/26424136/96062496-01b3c380-0ec0-11eb-838d-37106e2d0efa.png) <br>
+Isi File Zipkey.txt<br>
+Password : `hey997400323051` <br>
+![image](https://user-images.githubusercontent.com/26424136/96062512-109a7600-0ec0-11eb-9bbe-d960447bc059.png)<br>
+File "Open This.pdf"<br>
+![image](https://user-images.githubusercontent.com/26424136/96062295-8520e500-0ebf-11eb-84ae-8e9dcb46712b.png)
 
 
 
