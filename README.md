@@ -95,7 +95,7 @@ Cari objek apa saja yang didownload (RETR) dari koneksi FTP dengan Microsoft FTP
 ##### Screenshot hasil:
 1. Mencari IP Microsoft.
 ![image](https://user-images.githubusercontent.com/26424136/96101272-7ce89a00-0eff-11eb-8e28-b29e714650d9.png)
-2. Objek telah ditemukan.
+2. Objek telah ditemukan (File yang ditemukan ialah <b>readme</b>). 
 ![image](https://user-images.githubusercontent.com/26424136/96101410-9f7ab300-0eff-11eb-9b5f-72df82f24a1e.png)
 
 ### Soal 9
