@@ -1,10 +1,12 @@
 # Jarkom_Modul1_Lapres_T06
-Laporan Resmi Praktikum Jaringan Komputer <br>
+<b> Laporan Resmi Praktikum Jaringan Komputer </b> <br>
 Kelompok T06
 1. Hana Ghaliyah Azhar  (05311840000032)
 2. Azmi                 (05311840000047)
 
 ## Display Filter
+Memilah paket yang akan ditampilkan dari kumpulan paket yang sudah ditangkap.
+
 ### Soal 1
 Sebutkan webserver yang digunakan pada "testing.mekanis.me"!
 #### Pembahasan
@@ -123,6 +125,8 @@ clue: "25 50 44 46"
 ![image](https://user-images.githubusercontent.com/26424136/96088346-810cbb80-0eef-11eb-882b-9b3ec919054a.png)
 
 ## Capture Filter
+Memilah paket yang akan ditangkap (captured). Paket yang tidak memenuhi kriteria dibiarkan lewat tanpa ditangkap.
+
 ### Soal 11
 Filter sehingga wireshark hanya mengambil paket yang mengandung port 21!
 #### Pembahasan
