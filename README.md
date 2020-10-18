@@ -63,21 +63,21 @@ Seseorang menyimpan file zip melalui FTP dengan nama "Answer.zip". Simpan dan Bu
 #### Pembahasan
 ##### Wireshark filter expression: `ftp-data` <br>
 ##### Screenshot hasil: <br>
-Mencari file Answer.zip
+1. Mencari file Answer.zip
 - ctrl+f (display filter dichange ke regular expression) answer.zip
 - find
 - follow TCP Stream
 - show and save data as 'RAW' 
 - Save as dan beri nama "Answer.zip" <br>
 ![image](https://user-images.githubusercontent.com/26424136/96062496-01b3c380-0ec0-11eb-838d-37106e2d0efa.png) <br>
-Mencari file zipkey.txt
+2. Mencari file zipkey.txt
 - ctrl+f mecari zipkey
 - lalu menemukan zipkey.txt 
 - follow tcp stream
 - show and save data as `raw` <br>
 Isi File Zipkey.txt berupa Password : `hey997400323051` <br>
 ![image](https://user-images.githubusercontent.com/26424136/96062512-109a7600-0ec0-11eb-9bbe-d960447bc059.png)<br>
-File "Open This.pdf"<br>
+3. File "Open This.pdf"<br>
 ![image](https://user-images.githubusercontent.com/26424136/96062295-8520e500-0ebf-11eb-84ae-8e9dcb46712b.png)
 <br>
 
