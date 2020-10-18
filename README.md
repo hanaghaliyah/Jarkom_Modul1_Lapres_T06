@@ -100,7 +100,7 @@ Cari username dan password ketika login FTP pada localhost!
 #### Pembahasan
 ##### Wireshark filter expression: `ftp.request.command == USER || ftp.request.command == PASS`
 ##### Screenshot hasil:
-User: `dhana` dan Pass: `dhana123`
+User: `dhana` dan Pass: `dhana123` <br>
 ![image](https://user-images.githubusercontent.com/26424136/96077426-fa011880-0ed9-11eb-97e2-0ccad712c34a.png)
 
 ### Soal 10
