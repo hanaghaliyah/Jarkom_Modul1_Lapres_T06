@@ -15,7 +15,6 @@ Dapat dilihat webserver yang digunakan pada <b>testing.mekanis.me</b> adalah `Se
 ### Soal 2
 Simpan gambar "Tim_Kunjungan_Kerja_BAKN_DPR_RI_ke_Sukabumi141436.jpg"!
 #### Pembahasan
-##### Screenshot hasil:
 1. Pilih File -> Export Objects -> HTTP
 ![Screenshot (135)](https://user-images.githubusercontent.com/26424136/96080225-cd043400-0ee0-11eb-9727-a438efef1b30.png)
 2. Lalu cari gambar <b>Tim_Kunjungan_Kerja_BAKN_DPR_RI_ke_Sukabumi141436.jpg</b> pada `Text Filter`, Lalu <b>save as</b> dengan format `.jpg`
@@ -35,8 +34,9 @@ Pada `HTML Form URL Encode`, kita dapat menemukan username dan password.
 
 ### Soal 4
 Temukan paket dari web-web yang menggunakan basic authentication method! <br>
-Wireshark filter expression: `http.authbasic` <br>
-screenshot hasil:
+#### Pembahasan
+##### Wireshark filter expression: `http.authbasic` <br>
+##### Screenshot hasil:
 ![image](https://user-images.githubusercontent.com/26424136/96061525-a8e32b80-0ebd-11eb-94eb-2eee925aaf73.png)
 
 ### Soal 5
@@ -52,24 +52,21 @@ Ikuti perintah di aku.pengen.pw! Username dan password bisa didapatkan dari file
 ### Soal 6
 Seseorang menyimpan file zip melalui FTP dengan nama "Answer.zip". Simpan dan Buka file "Open This.pdf" di Answer.zip. Untuk mendapatkan password zipnya, temukan dalam file zipkey.txt (passwordnya adalah isi dari file txt tersebut). <br>
 #### Pembahasan
-Wireshark filter expression: `ftp-data` <br>
-Step Mencari file Answer.zip
+##### Wireshark filter expression: `ftp-data` <br>
+##### Screenshot hasil: <br>
+1. Mencari file Answer.zip
 - ctrl+f (display filter dichange ke regular expression) answer.zip
 - find
 - follow TCP Stream
 - show and save data as 'RAW' 
 - Save as dan beri nama "Answer.zip" <br>
-
-Step Mencari file zipkey.txt
+![image](https://user-images.githubusercontent.com/26424136/96062496-01b3c380-0ec0-11eb-838d-37106e2d0efa.png) <br>
+2. Mencari file zipkey.txt
 - ctrl+f mecari zipkey
 - lalu menemukan zipkey.txt 
 - follow tcp stream
 - show and save data as `raw`
-
-Screenshot hasil: <br>
-![image](https://user-images.githubusercontent.com/26424136/96062496-01b3c380-0ec0-11eb-838d-37106e2d0efa.png) <br>
-Isi File Zipkey.txt<br>
-Password : `hey997400323051` <br>
+Isi File Zipkey.txt berupa Password : `hey997400323051` <br>
 ![image](https://user-images.githubusercontent.com/26424136/96062512-109a7600-0ec0-11eb-9bbe-d960447bc059.png)<br>
 File "Open This.pdf"<br>
 ![image](https://user-images.githubusercontent.com/26424136/96062295-8520e500-0ebf-11eb-84ae-8e9dcb46712b.png)
@@ -109,12 +106,11 @@ Cari username dan password ketika login FTP pada localhost!
 Cari file .pdf di wireshark lalu download dan buka file tersebut!
 clue: "25 50 44 46" 
 #### Pembahasan
-##### Wireshark filter expression:
-- ctrl + f (display filter dichange ke Hex Value)
-- Find `25 50 44 46`
-- Setelah menemukan paketnya, Pilih Follow TCP Stream
-- Show and save data as `raw`
-- Save as dengan format `pdf`
+1. ctrl + f (display filter dichange ke Hex Value)
+2. Find `25 50 44 46`
+3. Setelah menemukan paketnya, Pilih Follow TCP Stream
+4. Show and save data as `raw`
+5. Save as dengan format `pdf`
 
 ##### Screenshot hasil:
 1. Paket telah ditemukan <br>
