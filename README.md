@@ -1,4 +1,5 @@
 # Jarkom_Modul1_Lapres_T06
+Laporan Resmi Praktikum Jaringan Komputer <br>
 Kelompok T06
 1. Hana Ghaliyah Azhar  (05311840000032)
 2. Azmi                 (05311840000047)
