@@ -65,10 +65,10 @@ Seseorang menyimpan file zip melalui FTP dengan nama "Answer.zip". Simpan dan Bu
 - ctrl+f mecari zipkey
 - lalu menemukan zipkey.txt 
 - follow tcp stream
-- show and save data as `raw`
+- show and save data as `raw` <br>
 Isi File Zipkey.txt berupa Password : `hey997400323051` <br>
 ![image](https://user-images.githubusercontent.com/26424136/96062512-109a7600-0ec0-11eb-9bbe-d960447bc059.png)<br>
-File "Open This.pdf"<br>
+3. File "Open This.pdf"<br>
 ![image](https://user-images.githubusercontent.com/26424136/96062295-8520e500-0ebf-11eb-84ae-8e9dcb46712b.png)
 
 ### Soal 7
@@ -100,6 +100,7 @@ Cari username dan password ketika login FTP pada localhost!
 #### Pembahasan
 ##### Wireshark filter expression: `ftp.request.command == USER || ftp.request.command == PASS`
 ##### Screenshot hasil:
+User: `dhana` dan Pass: `dhana123`
 ![image](https://user-images.githubusercontent.com/26424136/96077426-fa011880-0ed9-11eb-97e2-0ccad712c34a.png)
 
 ### Soal 10
